@@ -5,12 +5,13 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const message = "Hello Function Component!!"
+  console.log("Render!!")
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>{{message}}</p>
+        <p>{message}</p>
         <p>
           <button type="button" 
             onClick={() => setCount((count) => count + 1)}>
