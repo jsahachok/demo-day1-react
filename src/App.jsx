@@ -15,6 +15,9 @@ function App() {
         <p>
           <button type="button" 
             onClick={() => setCount((count) => count + 1)}>
+            {/* if used like below it will error cause the react will render if it has a change. */}
+            {/* So if used like below it will loop rendering */}
+            {/* onClick={setCount((count) => count + 1)}> */}
             count is: {count}
           </button>
         </p>
