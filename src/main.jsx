@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import AppClass from './AppClass'
 import WorkShop from './workshop/WorkShop'
+import Assignment from './Assignment/Assignment'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // normal mode
   //   <App />
   //   <AppClass />
-  <WorkShop/>
+  // <WorkShop/>
+  <Assignment />
 )
